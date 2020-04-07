@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #dfe4ea;
+}
+
+button {
+  font-size: 25px;
+  font-weight: bold;
+  background: tan;
+  border-radius: 20px;
+}
+
+button:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+  background: #70a1ff;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  background: darkgrey;
+  width: 500px;
+  height: 120px;
+  padding-top: 20px;
+  color: linen;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.container {
+  height: 500px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.but {
+  height: 200px;
+  margin: auto auto 20px;
+  width: 200px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  background: blanchedalmond;
+  border: 2px solid;
+  border-radius: 20%;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.msg {
+  font-style: italic;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  background: royalblue;
+  border: 4px double black;
+  color: limegreen;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
